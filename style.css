@@ -1,0 +1,96 @@
+body{
+    max-width: 100%;
+    background: rgba(247, 223, 125, 0.574)
+
+}
+
+#addpro{
+    width: 40%;
+    border: solid 1px;
+    height: auto;
+    padding: 8px;
+    background: linear-gradient(to left,rgb(105, 239, 228),rgb(215, 48, 238));
+}
+
+#addpro input[type=text]{
+
+    width: 40%;
+    padding: 5px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    border-bottom: solid 1px black;
+    margin-top: 4%
+
+}
+#addpro input[type=text]::placeholder{
+
+    color: black;
+
+    
+
+}
+
+.label{
+    display: inline-block;
+    width: 15%;
+}
+
+#pro-l{
+    font-size: 25px;
+    border: solid 1px;
+    padding: 4px 4px 1px 4px;
+    
+}
+
+.con{
+    margin-left: 16%;
+}
+
+#addpro button{
+    margin-top: 2%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    outline: none;
+
+}
+
+#up-l{
+    font-size: 25px;
+    border: solid 1px;
+    padding: 4px 4px 1px 4px;
+
+}
+
+
+#myTableData{
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+#myTableData{
+ 
+    width: 500px;
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+#myTableData th{
+    background-color: rgba(160, 92, 224, 0.647);
+
+    
+}
+
+#myTableData td{
+    
+    color: rgb(0, 55, 255);
+
+    
+}
+
+.task_l{
+    display: inline-block;
+}
