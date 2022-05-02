@@ -270,7 +270,7 @@ $(document).ready(function () {
     }
 
     function editdata() {
-        debugger
+       
         var update = $(".update");
         var projectDetails = localStorage.getItem("projectDetails");
         var projectDetailsArray = JSON.parse(projectDetails);
@@ -315,6 +315,10 @@ $(document).ready(function () {
         var projectDetailsArray = JSON.parse(projectDetails);
         var tasklist = [];
         var taskstr = "";
+            	if(projectDetails==null){
+		
+	return;
+        }       
 
         for (let i = 0; i < projectDetailsArray.length; i++) {
             taskstr += projectDetailsArray[i].Task + ",";
